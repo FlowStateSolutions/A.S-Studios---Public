@@ -102,7 +102,7 @@ Allowing a user to intuitively search through thousands of unique suppliers requ
 
 ---
 
-🚀 Future Enhancements (Phase 2 Roadmap)
+## 🚀 Future Enhancements (Phase 2 Roadmap)
 Application-Side Calculation Engine: Introducing structured currency validation (ZAR/USD tracking) and automated margin calculations.
 
 Automated Proposal of Costs (PoC): Generating secondary financial client-facing summaries directly from populated database fields.
