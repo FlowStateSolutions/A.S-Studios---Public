@@ -66,7 +66,7 @@ Data is frozen inside `finalized_itinerary_items`.
 
 ---
 
-🗄️ Database Architecture & Relational Strategy
+🗄️## Database Architecture & Relational Strategy
 To maximize query performance and eliminate data fragmentation, the backend utilizes a centralized physical layer paired with logical database abstractions.
 
 1. Unified Supplier Directory (master_suppliers)
@@ -86,7 +86,7 @@ When an itinerary is confirmed, this table records the historical snapshot. Cruc
 
 ---
 
-⚡ Engineering Highlights
+⚡## Engineering Highlights
 🚄 1. Network-Optimized Drag-and-Drop Sorting (Bulk Upsert)
 Managing user-driven sequential order (drag-and-drop) over a web connection can quickly become a database bottleneck. If a user moves an item across a large timeline, firing individual UPDATE commands for every shifted row creates immense network overhead and risks race conditions.
 
