@@ -12,10 +12,10 @@
 * **Frontend Engine:** React, TypeScript, Tailwind CSS
 * **Backend & Database (BaaS):** Supabase (PostgreSQL relational schema modeling, database views, atomic transaction functions, and bulk upsert operations)
 * **Document Generation:** Client-facing document layout engine (Custom exports configured to scrub proprietary cost vectors programmatically)
-* **AI-Assisted Architecture:**
+* **AI-Assisted Prototyping and Architecture:**
   * Accelerated MVP development using Lovable for rapid full-stack prototyping.
   * Leveraged Gemini to migrate and translate legacy TSQL patterns into optimized PostgreSQL.
-  * Utilized AI as a dedicated systems-design partner to stress-test architectural roadmaps and database normalization rules.
+  * Utilized AI as a planning and analysis tool to critique architectural roadmaps.
 
 ---
 
